@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(155deg, #4158D0 0%, #C850C0 46%, #FFCC70 86%, #ffffff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.card img{
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.textbox{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 15px;
+width: 70%;
+text-align: center;
+}
+#amountbox{
+    width: 80%;
+    height: 10%;
+    background-color: #4158D0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#leftbox{
+    display: flex;
+    /* width: fit-content; */
+    gap: 15px;
+    height: 100%;
+}
+.imgbox img{
+    /* height: 3.5 rem;
+    width: 3.5 rem; */
+    height: 60px;
+    width: 60px;
+    margin-right: 30px;
+
+}
+#textamountbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+
+
+#paymentbtn{
+    width: 80%;
+    height: 8%;
+    background-color: #C850C0;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+     0 10px 10px rgba(0,0,0,0.22);
+}
+.cancelbox{
+    text-decoration: none;
+    color:darkgray ;
+    font-weight: bold;
+    font-size: large;
+}
